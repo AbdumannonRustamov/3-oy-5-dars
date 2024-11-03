@@ -1,0 +1,146 @@
+@import './header';
+@import './fonts';
+@import './normalize.css';
+
+$kok: #002959;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    height: 100vh
+}
+
+.container {
+    width: 1360px;
+    margin: 0 auto;
+}
+
+.basket {
+    position: relative;
+    z-index: -12;
+
+    .four {
+        position: absolute;
+        left:  10px;
+        bottom: 10px;
+        z-index: 2;
+    }
+}  
+
+.excellent {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 982px;
+    height: 114px;
+    position: relative;
+    z-index: 1;
+
+    h1 {
+        margin-top: 80px;
+        font-size: 61px;
+        text-align: center;
+        text-transform: capitalize;
+        color: $kok;
+        position: relative;
+        z-index: 3;
+    }
+
+    img {
+        position: absolute;
+        left: 835px;
+        top: 15px;
+        z-index: 5;
+    }
+}
+
+
+.gravida {
+    width: 640px;
+    height: 42px;
+    margin-top: 6%;
+    margin-left: 350px;
+    position: relative;
+    z-index: 2;
+
+    p {
+        font-size: 19px;
+        text-align: center;
+        text-transform: capitalize;
+        color: $kok;
+        position: relative;
+        z-index: 3;
+    }
+
+    img {
+        position: absolute;
+        right: 586px;
+        top: -57px;
+        z-index: 7;
+    }
+    
+}
+
+
+.fayls {
+    display: flex;
+    justify-content: center;
+    .btn-2 {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        align-items: center;
+        text-align: center;
+        width: 266px;
+        height: 60px;
+        cursor: pointer;
+        margin-top: 40px;   
+        border: none;
+        background-color: $sun;
+        border-radius: 2px;
+        color: $oq;
+        font-size: 16px;
+        transition: 0.3s;
+        &:active{
+        transform: scale(0.95);
+    }
+
+}
+
+    .btn-2:hover {
+        background-color: #ff921d;
+    }
+}
+
+
+
+.photos {
+        position: relative;
+        z-index: -1000;
+        margin: 0 auto;
+        margin-top: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    .photo-1{
+        z-index: -1000;
+        margin: 0 auto;
+        margin-left: -80px;
+        width: 1507px;
+    }
+
+    .photo-2 {
+        margin: 0 auto;
+        margin-top: -1000px;
+        margin-left: 180px;
+    }
+}
+
+
